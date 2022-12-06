@@ -92,10 +92,10 @@ namespace GPBApp.VIEWS
         private void button2_Click(object sender, EventArgs e)
         {
             ProjectBlock frm = new ProjectBlock();
-            show_panel(frm);
+                   frm.Show(this);
         }
 
-        public void show_panel(Form form,B)
+        public void show_panel(Form form)
         {
             if (panelOff)
             {
@@ -125,9 +125,14 @@ namespace GPBApp.VIEWS
                 //frm.BringToFront();
                 //frm.Hide();
                 panel4.Hide();
-                buttonSpecEventArgs.BackColor = Color.FromArgb(39, 39, 39);
+                //buttonSpecEventArgs.BackColor = Color.FromArgb(39, 39, 39);
                 panelOff = true;
             }
+        }
+
+        private void btn_tache_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

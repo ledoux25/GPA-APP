@@ -54,6 +54,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\auteurDAL.cs" />
+    <Compile Include="DAL\conn.cs" />
+    <Compile Include="DAL\directTacheDAL.cs" />
+    <Compile Include="DAL\equipeDAL.cs" />
+    <Compile Include="entity\autuerEntity.cs" />
+    <Compile Include="entity\directTacheEntity.cs" />
+    <Compile Include="entity\equipeEntity.cs" />
+    <Compile Include="entity\membreEntity.cs" />
+    <Compile Include="entity\moduleEntity.cs" />
+    <Compile Include="entity\planificationEntity.cs" />
+    <Compile Include="entity\projetEntity.cs" />
+    <Compile Include="entity\tacheEntity.cs" />
+    <Compile Include="entity\utilisateurEntity.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
